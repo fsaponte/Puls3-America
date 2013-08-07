@@ -2,61 +2,97 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8" />
-	<title>Mi primer Web</title>
-	<link rel="stylesheet" href="normalize.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+	<title>Puls3: Comunidad de gente cool, atractiva y millonaria</title>
+	<link rel="stylesheet" href="css/normalize.css" />
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
-	<link rel="stylesheet" href="estilos.css" />
+	<link rel="stylesheet" href="css/estilos.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
 </head>
 <body>
 	<header>
 		<figure id="logo">
-			<img src="logo.png" />
+			<img src="images/logo.png" />
 		</figure>
 		<h1 id="titulo_header">Puls3: Comunidad de gente cool, atractiva y millonaria</h1>
 		<figure id="avatar">
-			<img src="avatar.jpg" />
-			<figcaption>
-				*
-			</figcaption>
+			<img src="images/avatar.jpg" />
+			<figcaption></figcaption>
 		</figure>
+		<div id="btnHome">
+			<a href="#">Home <span></span></a>
+		</div>
 	</header>
 	<nav>
 		<ul>
-			<li id="flechita_nav"><a href="">*</a></li>
-			<li><a href="">Phyton</a></li>
-			<li><a href="">HTML5</a></li>
-			<li><a href="">Javascript</a></li>
-			<li><a href="">CSS3</a></li>
-			<li><a href="">Django</a></li>
-			<li id="publicar_nav"><a href="">Publicar</a></li>
+			<li id="flechita_nav"><a href="#"></a></li>
+			<li><a href="#">Phyton</a></li>
+			<li><a href="#">HTML5</a></li>
+			<li><a href="#">Javascript</a></li>
+			<li><a href="#">CSS3</a></li>
+			<li><a href="#">Django</a></li>
+			<li id="publicar_nav"><a href="#">Publicar</a></li>
 		</ul>
 	</nav>
+	<aside id="bienvenida">
+		<h2>Hola, registrate!</h2>
+		<p>Es importante registrarte porque LOL!</p>
+		<a id="registro" href="#">Registrate acá</a>
+		<p id="mensaje_registro">En serio, registrate por favor</p>
+		<video width="300" controls>
+			<source src="happyfit.webm" type="video/webm" />
+			<source src="happyfit.mp4" type="video/mp4" />
+			<p>SU NAVEGADOR ES VIEJO DE COJONES!!</p>
+		</video>
+	</aside>
 	<section id="contenido">
 		<article class="item">
 			<figure class="imagen_item">
-				<img src="imagen.jpg" />
+				<img src="images/imagen.jpg" />
 			</figure>
 			<h2 class="titulo_item">
 				<a href="#">Una mirada a Leap Motion: El control Monirity Report</a>
 			</h2>
 			<p class="autor_item">
-				Por <a href="#">fred</a>
+				Por <a href="#">Fred Aponte</a>
 			</p>
 			<p class="datos_item">
 				<a href="#" class="tag_item">categoria</a>
 				<span class="fecha_item">Hace <strong>5</strong> mins</span>
 				<a href="#" class="comentario_item">455</a>
-				<a href="#" class="guardar_item">*</a>
+				<a href="#" class="guardar_item"></a>
 			</p>
 			<p class="votacion">
-				<a href="#" class="up">Up</a>
+				<a href="#" class="up"></a>
 				3141
-				<a href="#" class="down">Down</a>
+				<a href="#" class="down"></a>
+			</p>
+		</article>
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="images/imagen.jpg" />
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#">Una mirada a Leap Motion: El control Monirity Report</a>
+			</h2>
+			<p class="autor_item">
+				Por <a href="#">Fred Aponte</a>
+			</p>
+			<p class="datos_item">
+				<a href="#" class="tag_item">categoria</a>
+				<span class="fecha_item">Hace <strong>5</strong> mins</span>
+				<a href="#" class="comentario_item">455</a>
+				<a href="#" class="guardar_item"></a>
+			</p>
+			<p class="votacion">
+				<a href="#" class="up"></a>
+				3141
+				<a href="#" class="down"></a>
 			</p>
 		</article>
 	</section>
 	<footer>
-		<p>Power by Platzi!</p>
+		<p><strong>Power by Platzi!</strong></p>
 		<p>Mejorando.la 2013 ®</p>
 	</footer>
 </body>
